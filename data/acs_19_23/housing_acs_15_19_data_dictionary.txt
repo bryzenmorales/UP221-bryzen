@@ -1,0 +1,261 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R13793274
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2023 (5-Year Estimates)
+Dataset:          American Community Survey 2023
+Tables:
+
+      1. Housing Units
+         Universe:  Universe: Housing units
+         Name:      B25001
+         Variables:
+            B25001001:   Total
+
+
+      2. Housing Units
+         Universe:  Universe: Housing units
+         Name:      B25001_se
+         Variables:
+            B25001001s:   Std. Error: Total
+
+
+      3. Tenure
+         Universe:  Universe: Occupied housing units
+         Name:      B25003
+         Variables:
+            B25003001:   Total:
+            B25003002:      Owner Occupied
+            B25003003:      Renter Occupied
+
+
+      4. Tenure
+         Universe:  Universe: Occupied housing units
+         Name:      B25003_se
+         Variables:
+            B25003001s:   Std. Error: Total:
+            B25003002s:      Std. Error: Owner Occupied
+            B25003003s:      Std. Error: Renter Occupied
+
+
+      5. Total Population In Occupied Housing Units By Tenure
+         Universe:  Universe: Total population in occupied housing units
+         Name:      B25008
+         Variables:
+            B25008001:   Total:
+            B25008002:      Owner Occupied
+            B25008003:      Renter Occupied
+
+
+      6. Total Population In Occupied Housing Units By Tenure
+         Universe:  Universe: Total population in occupied housing units
+         Name:      B25008_se
+         Variables:
+            B25008001s:   Std. Error: Total:
+            B25008002s:      Std. Error: Owner Occupied
+            B25008003s:      Std. Error: Renter Occupied
+
+
+      7. Total Population In Occupied Housing Units By Tenure (Black Or African American Alone Householder)
+         Universe:  Universe: Occupied housing units with a householder who is Black or African American alone
+         Name:      B25008B
+         Variables:
+            B25008B001:   Total:
+            B25008B002:      Owner Occupied
+            B25008B003:      Renter Occupied
+
+
+      8. Total Population In Occupied Housing Units By Tenure (Black Or African American Alone Householder)
+         Universe:  Universe: Occupied housing units with a householder who is Black or African American alone
+         Name:      B25008B_se
+         Variables:
+            B25008B001s:   Std. Error: Total:
+            B25008B002s:      Std. Error: Owner Occupied
+            B25008B003s:      Std. Error: Renter Occupied
+
+
+      9. Total Population In Occupied Housing Units By Tenure (Asian Alone Householder)
+         Universe:  Universe: Occupied housing units with a householder who is Asian alone
+         Name:      B25008D
+         Variables:
+            B25008D001:   Total:
+            B25008D002:      Owner Occupied
+            B25008D003:      Renter Occupied
+
+
+      10. Total Population In Occupied Housing Units By Tenure (Asian Alone Householder)
+          Universe:  Universe: Occupied housing units with a householder who is Asian alone
+          Name:      B25008D_se
+          Variables:
+             B25008D001s:   Std. Error: Total:
+             B25008D002s:      Std. Error: Owner Occupied
+             B25008D003s:      Std. Error: Renter Occupied
+
+
+      11. Total Population In Occupied Housing Units By Tenure (White Alone, Not Hispanic Or Latino Householder)
+          Universe:  Universe: Occupied housing units with a householder who is White alone, not Hispanic or Latino
+          Name:      B25008H
+          Variables:
+             B25008H001:   Total:
+             B25008H002:      Owner Occupied
+             B25008H003:      Renter Occupied
+
+
+      12. Total Population In Occupied Housing Units By Tenure (White Alone, Not Hispanic Or Latino Householder)
+          Universe:  Universe: Occupied housing units with a householder who is White alone, not Hispanic or Latino
+          Name:      B25008H_se
+          Variables:
+             B25008H001s:   Std. Error: Total:
+             B25008H002s:      Std. Error: Owner Occupied
+             B25008H003s:      Std. Error: Renter Occupied
+
+
+      13. Total Population In Occupied Housing Units By Tenure (Hispanic Or Latino Householder)
+          Universe:  Universe: Occupied housing units with a householder who is Hispanic or Latino
+          Name:      B25008I
+          Variables:
+             B25008I001:   Total:
+             B25008I002:      Owner Occupied
+             B25008I003:      Renter Occupied
+
+
+      14. Total Population In Occupied Housing Units By Tenure (Hispanic Or Latino Householder)
+          Universe:  Universe: Occupied housing units with a householder who is Hispanic or Latino
+          Name:      B25008I_se
+          Variables:
+             B25008I001s:   Std. Error: Total:
+             B25008I002s:      Std. Error: Owner Occupied
+             B25008I003s:      Std. Error: Renter Occupied
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FILEID:         Always equal to ACS SummaryFile identification
+      STUSAB:         State Postal Abbreviation
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      US:             US
+      REGION:         Census Region
+      DIVISION:       Census Division
+      STATE:          State (FIPS Code)
+      COUNTY:         County of current residence
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/AlaskaNative Area/ Hawaiian Home Land(Census)
+      AIANHHFP:       American Indian Area/AlaskaNative Area/ Hawaiian Home Land(FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITS:           American Indian TribalSubdivision (FIPS)
+      ANRC:           Alaska Native RegionalCorporation (FIPS)
+      CBSA:           Metropolitan and MicropolitanStatistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Statistical Area-Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/MicropolitanIndicator Flag
+      NECTA:          New England City and Town Area
+      CNECTA:         New England City and TownCombined Statistical Area
+      NECTADIV:       New England City and Town AreaDivision
+      UA:             Urban Area
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      ZCTA5:          5-digit ZIP Code Tabulation Area
+      SUBMCD:         Subminor Civil Division (FIPS)
+      SDELM:          State-School District (Elementary)
+      SDSEC:          State-School District (Secondary)
+      SDUNI:          State-School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      PUMA5:          Public Use Microdata Area – 5%File
+      GEO_ID:         Geographic Identifier
+      NAME:           Area Name
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      QName:          Qualifying Name
+      FIPS:           FIPS
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      B25001001:      Total
+      B25001001s:     Std. Error: Total
+      B25003001:      Total
+      B25003002:      Total: Owner Occupied
+      B25003003:      Total: Renter Occupied
+      B25003001s:     Std. Error: Total
+      B25003002s:     Std. Error: Total: Owner Occupied
+      B25003003s:     Std. Error: Total: Renter Occupied
+      B25008001:      Total
+      B25008002:      Total: Owner Occupied
+      B25008003:      Total: Renter Occupied
+      B25008001s:     Std. Error: Total
+      B25008002s:     Std. Error: Total: Owner Occupied
+      B25008003s:     Std. Error: Total: Renter Occupied
+      B25008B001:     Total
+      B25008B002:     Total: Owner Occupied
+      B25008B003:     Total: Renter Occupied
+      B25008B001s:    Std. Error: Total
+      B25008B002s:    Std. Error: Total: Owner Occupied
+      B25008B003s:    Std. Error: Total: Renter Occupied
+      B25008D001:     Total
+      B25008D002:     Total: Owner Occupied
+      B25008D003:     Total: Renter Occupied
+      B25008D001s:    Std. Error: Total
+      B25008D002s:    Std. Error: Total: Owner Occupied
+      B25008D003s:    Std. Error: Total: Renter Occupied
+      B25008H001:     Total
+      B25008H002:     Total: Owner Occupied
+      B25008H003:     Total: Renter Occupied
+      B25008H001s:    Std. Error: Total
+      B25008H002s:    Std. Error: Total: Owner Occupied
+      B25008H003s:    Std. Error: Total: Renter Occupied
+      B25008I001:     Total
+      B25008I002:     Total: Owner Occupied
+      B25008I003:     Total: Renter Occupied
+      B25008I001s:    Std. Error: Total
+      B25008I002s:    Std. Error: Total: Owner Occupied
+      B25008I003s:    Std. Error: Total: Renter Occupied
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2025
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R13793274
+
+If you have any questions contact info@socialexplorer.com
